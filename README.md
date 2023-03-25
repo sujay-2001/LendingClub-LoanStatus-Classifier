@@ -1,24 +1,29 @@
 # LendingClub-LoanStatus-Classifier
 **Dataset Link: https://www.kaggle.com/datasets/wordsforthewise/lending-club** \
 ## Ask:
-What significant features of a restaurant affect user's experience, in what way they affect them, what are
-user's interests and preferences, and understanding them to improve or change business processes 
-in restaurants.
-### Goal: Analyse and prepare a visual report on features affecting restaurant's ratings.
+### Problem:
+For banks, which deal with large number of loan applications on a single day, it becomes difficult for them
+to analyse and process the loan, based on whether the loan applicant will  be able to pay back the loan or not.
+### Goal: 
+(i) Develop a model that would predict whether a loan applicant would pay back the loan or not, based on the features
+of the applicant
+(ii) Implement the model in an API
 
 ## Prepare:
-Dataset from Kaggle as mentioned was collected (which was originally downloaded from the UCI ML Repository),
-checked to ensure that data used in unbiased and secure. This dataset contained information on restaurants,
-users, and user-ratings.
+Dataset from Kaggle as mentioned (LendingClub Loan Data) was collected,
+checked to ensure that data used in unbiased and secure. This dataset contained information on features of loan 
+applicants, and the information whether they paid the loan back or charged off.
 
 ## Clean:
-PowerBI was used to import all the data (as csv), and data was cleaned using the transform data feature in
-PowerBI. Cleaning included dealing with missing data (removing observations/filling  them with avg values),
-removing duplicates, irrelevant attributes and renaming columns wherever needed.
+The imported data had a lot of missing entries, and unstructured attributes. Missing data was dealt by filling them
+with average values, and removing few observations. Highly correlated features (>0.95) were removed. And irrelevant
+attributes were dropped off. These were done with the help of pandas module.
 
 ## Analyse:
-Necessary relationships were added between the different tables in the database to understand the relations
-between them. Data was then analysed by using the filters, measures (functions, formulas).
+This included studying relationships between different attributes, by plots and manipulating data (aggregation,
+grouping, pivot tables, etc). Feature engineering was also done for features like address to extract valuable
+information with respect to derived variables (for instance state, zipcode in address). Dummies were created for
+categorical variables. The entire exploratory data analysis was done using pandas, seaborn, matplotlib, etc.
 
-## Share:
-Insights generated were jotted and visual charts were prepared to share the insights.
+## Model Training:
+This included 
