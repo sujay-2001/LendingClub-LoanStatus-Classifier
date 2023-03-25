@@ -1,5 +1,5 @@
 # LendingClub-LoanStatus-Classifier
-**Dataset Link: https://www.kaggle.com/datasets/wordsforthewise/lending-club** \
+**Dataset Link: https://www.kaggle.com/datasets/wordsforthewise/lending-club** 
 ## Ask:
 ### Problem:
 For banks, which deal with large number of loan applications on a single day, it becomes difficult for them
