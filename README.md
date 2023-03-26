@@ -36,4 +36,4 @@ same scale so that no any variable dominate the other variable. For feature scal
 class of sklearn.preprocessing library.  <br />
 (iii) Model: A sequential neural network model was created using Tensorflow, Keras. Dropouts and earlystopping method was
 added to avoid overfitting to training data while training. The trained model is then saved and performance is evaluated. <br />
-(https://github.com/sujay-2001/LendingClub-LoanStatus-Classifier/blob/main/Loss_Plt.png)
+[![Demo Link](https://github.com/sujay-2001/LendingClub-LoanStatus-Classifier/blob/main/Loss_Plt.png)]
