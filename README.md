@@ -2,10 +2,11 @@
 **Dataset Link: https://www.kaggle.com/datasets/wordsforthewise/lending-club** 
 [![Demo Link](https://github.com/sujay-2001/LendingClub-LoanStatus-Classifier/blob/main/Rep%20Image(YT).png)](https://youtu.be/mTZgdKDqtJ4)
 
-## Ask:
+## Ask: 
 ### Problem:
 For banks, which deal with large number of loan applications on a single day, it becomes difficult for them
 to analyse and process the loan, based on whether the loan applicant will  be able to pay back the loan or not.
+This would also ensure smooth functioning, and improve business processes in banks.
 ### Goal: 
 (i) Develop a **model** that would predict whether a loan applicant would pay back the loan or not, based on the features
 of the applicant. <br />
