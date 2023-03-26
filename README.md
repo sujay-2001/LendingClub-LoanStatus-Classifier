@@ -1,6 +1,6 @@
 # LendingClub-LoanStatus-Classifier
 **Dataset Link: https://www.kaggle.com/datasets/wordsforthewise/lending-club** 
-[![Demo Link]](https://youtu.be/mTZgdKDqtJ4)
+[![Demo Link]](http://url/to/img.png)(https://youtu.be/mTZgdKDqtJ4)
 
 ## Ask:
 ### Problem:
