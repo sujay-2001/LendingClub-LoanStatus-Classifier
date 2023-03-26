@@ -35,5 +35,5 @@ variables of the dataset in a specific range. In feature scaling, we put our var
 same scale so that no any variable dominate the other variable. For feature scaling, we will import StandardScaler
 class of sklearn.preprocessing library.  <br />
 (iii) Model: A sequential neural network model was created using Tensorflow, Keras. Dropouts and earlystopping method was
-added to avoid overfitting to training data while training. The trained model is then saved and performance is evaluated.
+added to avoid overfitting to training data while training. The trained model is then saved and performance is evaluated. <br />
 (https://github.com/sujay-2001/LendingClub-LoanStatus-Classifier/blob/main/Loss_Plt.png)
