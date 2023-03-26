@@ -28,7 +28,7 @@ grouping, pivot tables, etc). Feature engineering was also done for features lik
 information with respect to derived variables (for instance state, zipcode in address). Dummies were created for
 categorical variables. The entire exploratory data analysis was done using **pandas, seaborn, matplotlib,** etc.
 
-## Model Training:
+## Model Training: 
 This included: <br />
 (i)   Train-test split: Dataset was split into train and test data with the help of train_test_split from **sklearn**. <br />
 (ii)  Feature Scaling: This is the final step of data preprocessing. It is a technique to standardize the independent
