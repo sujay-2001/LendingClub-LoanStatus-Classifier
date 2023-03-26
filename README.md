@@ -1,13 +1,15 @@
 # LendingClub-LoanStatus-Classifier
 **Dataset Link: https://www.kaggle.com/datasets/wordsforthewise/lending-club** 
+[![Demo Link]](https://youtu.be/mTZgdKDqtJ4)
+
 ## Ask:
 ### Problem:
 For banks, which deal with large number of loan applications on a single day, it becomes difficult for them
 to analyse and process the loan, based on whether the loan applicant will  be able to pay back the loan or not.
 ### Goal: 
 (i) Develop a model that would predict whether a loan applicant would pay back the loan or not, based on the features
-of the applicant
-(ii) Implement the model in an API
+of the applicant. 
+(ii) Implement the model in an API.
 
 ## Prepare:
 Dataset from Kaggle as mentioned (LendingClub Loan Data) was collected,
@@ -27,3 +29,4 @@ categorical variables. The entire exploratory data analysis was done using panda
 
 ## Model Training:
 This included 
+8
